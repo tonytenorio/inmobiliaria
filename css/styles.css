@@ -94,3 +94,62 @@ body {
     font-size: 2.2rem;
     font-weight: 900;
 }
+
+/** Blog **/
+.entrada {
+
+}
+.entrada h3::after {
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    clear: both;
+    margin-top: .5rem;
+}
+.entrada span {
+    color: #e08709;
+}
+.btn-success {
+   background-color:  #71b100;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.btn-success:hover {
+    background-color: #639c02;
+}
+
+/** Testimoniales **/
+.testimoniales {
+    background-color: #71b100;
+}
+.testimoniales .testimonial-texto::before {
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    font-weight: 900;
+}
+.testimoniales .carousel-item {
+    padding-left: 2rem;
+}
+.testimoniales .testimonial-texto {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+.testimoniales span {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+/** Footer **/
+.bg-dark {
+    background-color: #333333!important;
+}
+.footer .nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+}
