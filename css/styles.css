@@ -61,3 +61,36 @@ body {
     font-size: 1rem;
     border-color: #e08709;
 }
+
+/*** Nosotros **/
+.sobre-nosotros h3 { 
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/** Anuncios **/
+.anuncios .card {
+    margin-bottom: 2rem;
+}
+
+.card-precio {
+    color: #71b100;
+}
+.card-descripcion img{
+   margin-right: .5rem;
+}
+
+/** Encuentra **/
+.encuentra {
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encuentra .container .row{
+    height: 25rem;
+}
+.encuentra h3 {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
