@@ -2,4 +2,4 @@
 
 ## Real State Template
 
-Profesional and modern template for a Web Real State Project.
+Profesional and modern template for a Real State Web Project.
